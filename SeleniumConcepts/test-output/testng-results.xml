@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1358" started-at="2021-01-17T15:21:22 EST" finished-at="2021-01-17T15:21:23 EST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="1358" started-at="2021-01-17T15:21:22 EST" finished-at="2021-01-17T15:21:23 EST">
+      <class name="testdataprovider.TestDataprovider">
+        <test-method status="PASS" signature="testDAta(java.lang.String, java.lang.String)[pri:0, instance:testdataprovider.TestDataprovider@5f282abb]" name="testDAta" duration-ms="10" started-at="2021-01-17T15:21:23 EST" data-provider="exceldata" finished-at="2021-01-17T15:21:23 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[naveen]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDAta -->
+        <test-method status="PASS" signature="testDAta(java.lang.String, java.lang.String)[pri:0, instance:testdataprovider.TestDataprovider@5f282abb]" name="testDAta" duration-ms="2" started-at="2021-01-17T15:21:23 EST" data-provider="exceldata" finished-at="2021-01-17T15:21:23 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[miju]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDAta -->
+        <test-method status="PASS" signature="testDAta(java.lang.String, java.lang.String)[pri:0, instance:testdataprovider.TestDataprovider@5f282abb]" name="testDAta" duration-ms="2" started-at="2021-01-17T15:21:23 EST" data-provider="exceldata" finished-at="2021-01-17T15:21:23 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ruman]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDAta -->
+      </class> <!-- testdataprovider.TestDataprovider -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

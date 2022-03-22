@@ -1,0 +1,17 @@
+package com.bit.test;
+
+import org.junit.Test;
+
+import Pages.HomePage;
+
+public class SmokeTest extends BaseTest {
+	
+	@Test
+	public void buyAShirt() {
+		
+		HomePage homepage= new HomePage(driver);
+	homepage.verifyHomePageLogo();
+	}
+	
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;WhlleLoop&apos; to &apos;WhileLoop&apos;&#x0A;- Original project: &apos;Loop Concept&apos;&#x0A;- Original element: &apos;WhlleLoop&apos;&#x0A;- Renamed element: &apos;WhileLoop&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;WhlleLoop&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{WhlleLoop.java[WhlleLoop" matchStrategy="1" name="WhileLoop" qualified="false" references="true" similarDeclarations="false" stamp="1604208245698" textual="false" version="1.0"/>
+</session>

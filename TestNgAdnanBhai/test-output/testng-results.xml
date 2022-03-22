@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite one " duration-ms="549" started-at="2020-12-06T14:52:47 EST" finished-at="2020-12-06T14:52:48 EST">
+    <groups>
+    </groups>
+    <test name="Smoke Test" duration-ms="73" started-at="2020-12-06T14:52:47 EST" finished-at="2020-12-06T14:52:47 EST">
+      <class name="com.test.smoke.SmokeTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.test.smoke.SmokeTest@57855c9a]" name="beforeTest" is-config="true" duration-ms="1" started-at="2020-12-06T14:52:47 EST" finished-at="2020-12-06T14:52:47 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforecalss()[pri:0, instance:com.test.smoke.SmokeTest@57855c9a]" name="beforecalss" is-config="true" duration-ms="0" started-at="2020-12-06T14:52:47 EST" finished-at="2020-12-06T14:52:47 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforecalss -->
+        <test-method status="PASS" signature="beforeeachetest()[pri:0, instance:com.test.smoke.SmokeTest@57855c9a]" name="beforeeachetest" is-config="true" duration-ms="1" started-at="2020-12-06T14:52:47 EST" finished-at="2020-12-06T14:52:47 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeeachetest -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:com.test.smoke.SmokeTest@57855c9a]" name="test2" duration-ms="7" started-at="2020-12-06T14:52:47 EST" finished-at="2020-12-06T14:52:47 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="afterMEthod()[pri:0, instance:com.test.smoke.SmokeTest@57855c9a]" name="afterMEthod" is-config="true" duration-ms="1" started-at="2020-12-06T14:52:47 EST" finished-at="2020-12-06T14:52:47 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMEthod -->
+        <test-method status="PASS" signature="beforeeachetest()[pri:0, instance:com.test.smoke.SmokeTest@57855c9a]" name="beforeeachetest" is-config="true" duration-ms="1" started-at="2020-12-06T14:52:47 EST" finished-at="2020-12-06T14:52:47 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeeachetest -->
+        <test-method status="PASS" signature="testOne()[pri:0, instance:com.test.smoke.SmokeTest@57855c9a]" name="testOne" duration-ms="6" started-at="2020-12-06T14:52:47 EST" finished-at="2020-12-06T14:52:47 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOne -->
+        <test-method status="PASS" signature="afterMEthod()[pri:0, instance:com.test.smoke.SmokeTest@57855c9a]" name="afterMEthod" is-config="true" duration-ms="0" started-at="2020-12-06T14:52:47 EST" finished-at="2020-12-06T14:52:47 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMEthod -->
+        <test-method status="PASS" signature="afterclass()[pri:0, instance:com.test.smoke.SmokeTest@57855c9a]" name="afterclass" is-config="true" duration-ms="1" started-at="2020-12-06T14:52:47 EST" finished-at="2020-12-06T14:52:47 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+      </class> <!-- com.test.smoke.SmokeTest -->
+    </test> <!-- Smoke Test -->
+    <test name="snaity test" duration-ms="20" started-at="2020-12-06T14:52:48 EST" finished-at="2020-12-06T14:52:48 EST">
+      <class name="com.test.sanity.SanityTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.test.sanity.SanityTest@396f6598]" name="beforeTest" is-config="true" duration-ms="1" started-at="2020-12-06T14:52:48 EST" finished-at="2020-12-06T14:52:48 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforecalss()[pri:0, instance:com.test.sanity.SanityTest@396f6598]" name="beforecalss" is-config="true" duration-ms="0" started-at="2020-12-06T14:52:48 EST" finished-at="2020-12-06T14:52:48 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforecalss -->
+        <test-method status="PASS" signature="beforeeachetest()[pri:0, instance:com.test.sanity.SanityTest@396f6598]" name="beforeeachetest" is-config="true" duration-ms="1" started-at="2020-12-06T14:52:48 EST" finished-at="2020-12-06T14:52:48 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeeachetest -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:com.test.sanity.SanityTest@396f6598]" name="test2" duration-ms="2" started-at="2020-12-06T14:52:48 EST" finished-at="2020-12-06T14:52:48 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="afterMEthod()[pri:0, instance:com.test.sanity.SanityTest@396f6598]" name="afterMEthod" is-config="true" duration-ms="0" started-at="2020-12-06T14:52:48 EST" finished-at="2020-12-06T14:52:48 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMEthod -->
+        <test-method status="PASS" signature="beforeeachetest()[pri:0, instance:com.test.sanity.SanityTest@396f6598]" name="beforeeachetest" is-config="true" duration-ms="0" started-at="2020-12-06T14:52:48 EST" finished-at="2020-12-06T14:52:48 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeeachetest -->
+        <test-method status="PASS" signature="testOne()[pri:0, instance:com.test.sanity.SanityTest@396f6598]" name="testOne" duration-ms="2" started-at="2020-12-06T14:52:48 EST" finished-at="2020-12-06T14:52:48 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOne -->
+        <test-method status="PASS" signature="afterMEthod()[pri:0, instance:com.test.sanity.SanityTest@396f6598]" name="afterMEthod" is-config="true" duration-ms="0" started-at="2020-12-06T14:52:48 EST" finished-at="2020-12-06T14:52:48 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMEthod -->
+        <test-method status="PASS" signature="afterclass()[pri:0, instance:com.test.sanity.SanityTest@396f6598]" name="afterclass" is-config="true" duration-ms="0" started-at="2020-12-06T14:52:48 EST" finished-at="2020-12-06T14:52:48 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+      </class> <!-- com.test.sanity.SanityTest -->
+      <class name="com.test.smoke.SmokeTest">
+        <test-method status="PASS" signature="beforeSuit()[pri:0, instance:com.test.smoke.SmokeTest@57855c9a]" name="beforeSuit" is-config="true" duration-ms="12" started-at="2020-12-06T14:52:47 EST" finished-at="2020-12-06T14:52:47 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuit -->
+        <test-method status="PASS" signature="aftersuite()[pri:0, instance:com.test.smoke.SmokeTest@57855c9a]" name="aftersuite" is-config="true" duration-ms="0" started-at="2020-12-06T14:52:48 EST" finished-at="2020-12-06T14:52:48 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftersuite -->
+      </class> <!-- com.test.smoke.SmokeTest -->
+    </test> <!-- snaity test -->
+  </suite> <!-- Suite one  -->
+</testng-results>

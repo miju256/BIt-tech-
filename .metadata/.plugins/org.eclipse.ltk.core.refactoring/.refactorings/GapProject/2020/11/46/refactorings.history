@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;BaseTest&apos; to &apos;com.gap.test&apos;&#x0A;- Original project: &apos;GapProject&apos;&#x0A;- Original element: &apos;GapProject/src/test/java/BaseTest&apos;&#x0A;- Renamed element: &apos;GapProject/src/test/java/com.gap.test&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;BaseTest&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/&lt;BaseTest" name="com.gap.test" qualified="false" references="true" stamp="1605054815699" textual="false" version="1.0"/>
+</session>

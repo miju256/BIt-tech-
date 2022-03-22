@@ -1,0 +1,28 @@
+<suite name ="Suite one ">
+<test name ="Smoke Test">
+<groups>
+<run>
+<include name="Smoketest"/>
+</run>
+</groups>
+
+<classes>
+<class name ="com.test.smoke.SmokeTest"/>
+</classes>
+<test name ="snaity test">
+
+<classes>
+<class  name="com.test.sanity.SanityTest"/>
+</classes>
+
+</test>
+
+
+</test>
+
+
+
+
+
+
+</suite>

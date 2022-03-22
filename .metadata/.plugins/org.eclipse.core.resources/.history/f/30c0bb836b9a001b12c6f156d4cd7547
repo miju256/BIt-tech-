@@ -1,0 +1,80 @@
+package datautil;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+
+public class FacebookLOginDAta {
+ WebDriver driver;
+ Object[][] data;
+@BeforeMethod
+public void Setup() {
+	System.setProperty("webdriver.gecko.driver", "/Users/mdgulamkibria/Downloads/geckodriver");
+	driver = new FirefoxDriver();
+	driver.get("https://www.facebook.com/");
+
+}
+
+@DataProvider(name="getData")
+public Object[][] getData() throws IOException {
+	FileInputStream file;
+	try {
+		file = new FileInputStream(new File ("/Users/mdgulamkibria/Desktop/bit tech/"
+				+ "dataprovider/excel/ExcelFile.xlsx"));
+		XSSFWorkbook work = new XSSFWorkbook(file );
+	    XSSFSheet sheet = work.getSheet("Sheet1");
+	     data = new Object[sheet.getLastRowNum()][sheet.getRow(0).getLastCellNum()];
+	    
+	    for (int i = 1;i<sheet.getLastRowNum();i++) {
+	    	for ( int j = 0;j<sheet.getRow(0).getLastCellNum();j++) {
+	    		data[i][j]=sheet.getRow(i+1).getCell(j);
+	    	}
+	    }
+	
+	
+	} catch (FileNotFoundException e) {
+	
+		e.printStackTrace();
+	}
+	return data;
+	
+
+
+}
+
+
+
+@Test(dataProvider ="getData")
+public void login(String username,String password  ) {
+	driver .findElement(By.id("email")).sendKeys(username);
+	driver.findElement(By.id("pass")).sendKeys(password);
+	
+}
+
+
+
+
+
+@AfterMethod
+public void tearDown() {
+	driver .quit();
+	
+}
+
+
+
+
+
+
+}

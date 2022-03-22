@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;practice.StringReverse&apos; to &apos;Duplicate&apos;&#x0A;- Original project: &apos;StringReverse&apos;&#x0A;- Original element: &apos;practice.StringReverse&apos;&#x0A;- Renamed element: &apos;practice.Duplicate&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;StringReverse&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;practice{StringReverse.java[StringReverse" matchStrategy="1" name="Duplicate" qualified="false" references="true" similarDeclarations="false" stamp="1605408017382" textual="false" version="1.0"/>
+</session>

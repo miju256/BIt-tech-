@@ -1,0 +1,46 @@
+<Configuration xmlns="http://logging.apache.org/log4j/2.0/config">
+    <Properties>
+        <Property name="baseDir">logs</Property>
+    </Properties>
+    <Appenders>
+        <Console name="myConsole" target="">
+            <PatternLayout pattern="%highlight{%d{DATE} %c{3} %-5level: %m%n}"></PatternLayout>
+        </Console>
+        <RollingFile
+                append="false" name="my-file"
+                fileName="${baseDir}/app.log"
+                filePattern="${baseDir}/app-%d{MM-dd-yyyy}-%i.log">
+            <PatternLayout
+                    pattern="%d{DATE} %c{1} %-5level: %m%n"/>
+            <Policies>
+                <TimeBasedTriggeringPolicy interval="1" />
+                <SizeBasedTriggeringPolicy size="1 KB"/>
+            </Policies>
+        </RollingFile>
+        <RollingFile
+                append="false"
+                name="my-file2"
+                fileName="${baseDir}/error.log1"
+                filePattern="${baseDir}/error-%d{MM-dd-yyyy}-%i.log">
+            <PatternLayout
+                    pattern="%d{DATE} %c{1} %-5level: %m%n"/>
+            <Policies>
+                <TimeBasedTriggeringPolicy interval="1" />
+                <SizeBasedTriggeringPolicy size="1 KB"/>
+            </Policies>
+        </RollingFile>
+    </Appenders>
+    <Loggers>
+        <Root level="all">
+            <AppenderRef level="info" ref="myConsole"/>
+            <AppenderRef level="trace" ref="my-file" />
+            <AppenderRef level="error" ref="my-file2"/>
+        </Root>
+        <Logger level="trace" name="myLogger" additivity="false">
+            <AppenderRef ref="my-file"/>
+        </Logger>
+
+    </Loggers>
+</Configuration>
+
+

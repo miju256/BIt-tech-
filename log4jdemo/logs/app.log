@@ -1,0 +1,6 @@
+13 Jan 2021 21:49:31,523 Mylogger TRACE: this is coming fron trace
+13 Jan 2021 21:49:31,528 Mylogger DEBUG: this is coming fron debug
+13 Jan 2021 21:49:31,528 Mylogger INFO : this is coming fron info
+13 Jan 2021 21:49:31,528 Mylogger WARN : this is coming fron warn
+13 Jan 2021 21:49:31,528 Mylogger ERROR: this is coming fron error
+13 Jan 2021 21:49:31,529 Mylogger FATAL: this is coming fron fatal

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.bit.constructor.Basetesr&apos; to &apos;Basetest&apos;&#x0A;- Original project: &apos;Constructor Practice 2&apos;&#x0A;- Original element: &apos;com.bit.constructor.Basetesr&apos;&#x0A;- Renamed element: &apos;com.bit.constructor.Basetest&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Basetesr&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.bit.constructor{Basetesr.java[Basetesr" matchStrategy="1" name="Basetest" qualified="false" references="true" similarDeclarations="false" stamp="1600907086261" textual="false" version="1.0"/>
+</session>
